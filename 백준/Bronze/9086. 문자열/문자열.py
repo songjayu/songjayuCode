@@ -1,8 +1,5 @@
-testNum = int(input())
-testCase = []
-for _ in range(testNum):
-    testCase.append(input())
+x = int(input())
 
-for i in range(testNum):
-    print(testCase[i][0], end='')
-    print(testCase[i][-1])
+for i in range(x):
+    a = str(input())
+    print(a[0]+a[-1])
